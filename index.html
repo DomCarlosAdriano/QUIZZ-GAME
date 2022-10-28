@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>QUIZZ GAME</title>
+  </head>
+  <body>
+    <div class="caixa-principal">
+      <div class="pontuacao">
+        <div class="ponto" value="0">0</div>
+        <div class="fase" value="0">FASE 0#</div>
+      </div>
+      <div class="pergunta">
+        <p>
+          AVISO: <br />
+          caso você não marque nenhuma alternativa você ira perder a questão
+        </p>
+      </div>
+      <div class="alternativas">
+        <div>
+          <input
+            type="radio"
+            id="a"
+            name="alternativas"
+            value="alternativa-A"
+            checked
+          />
+          <label for="a" id="la"></label><br />
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            id="b"
+            name="alternativas"
+            value="alternativa-B"
+          />
+          <label for="b" id="lb"></label><br />
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            id="c"
+            name="alternativas"
+            value="alternativa-C"
+          />
+          <label for="c" id="lc"></label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            id="d"
+            name="alternativas"
+            value="alternativa-D"
+          />
+          <label for="d" id="ld"></label>
+        </div>
+      </div>
+      <div class="next">
+        <button class="butao" onclick="butao()">
+          CLICK AQUI PARA INICIAR O GAME
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

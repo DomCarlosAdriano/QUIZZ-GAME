@@ -1,0 +1,121 @@
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  background-color: rgb(67, 65, 65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-principal {
+  width: 100vw;
+  height: 100%;
+}
+
+.pontuacao {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ponto {
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(97, 97, 95);
+  width: 10rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fase {
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(78, 72, 107);
+  width: 40rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pergunta {
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pergunta p {
+  font-size: 1.9rem;
+  color: white;
+  width: 90%;
+  height: 16rem;
+  background-color: rgb(21, 19, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.alternativas {
+  width: 100%;
+  height: 25rem;
+  background-color: rgb(30, 25, 25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  margin-left: 0.9rem;
+  font-size: 2rem;
+}
+
+.alternativas div {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+}
+
+#a,
+#b,
+#c,
+#d {
+  height: 5rem;
+  opacity: 0;
+}
+
+.next {
+  margin-top: 0.9rem;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butao {
+  color: rgb(255, 255, 253);
+  font-size: 1.5rem;
+  background-color: rgb(54, 135, 101);
+  width: 100%;
+  height: 100%;
+  border: none;
+}
